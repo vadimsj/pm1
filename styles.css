@@ -12,6 +12,7 @@
     --font-size-s: 16px;
     --font-size-m: ;
     --font-size-l: ;
+    --font-size-h-xs: 24px;
     --font-size-h-s: 28px;
     --font-size-h-m: ;
     --font-size-h-l: ;
@@ -20,8 +21,6 @@
     --min-width: 24rem;
     --max-width: 32rem;
 }
-
-
 
 * {
     margin: 0;
@@ -43,8 +42,6 @@ body {
     min-width: var(--min-width);
 }
 
-
-
 h1 {
     font-family: var(--font-family-h);
     font-weight: 400;
@@ -52,10 +49,15 @@ h1 {
     line-height: var(--line-height-h);
     margin-bottom: 1rem;
     text-align: center;
+    text-wrap: balance; /* currently limited support */
 }
 
 div#main h1 {
     margin-bottom: 0;
+}
+
+.section#usp h1 {
+    font-size: var(--font-size-h-xs);
 }
 
 p {
