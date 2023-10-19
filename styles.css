@@ -6,7 +6,7 @@
     --theme-color-dark-alt: hsl(0, 0%, 0%);
     --text-color-alt: hsl(0, 0%, 100%);
     --text-color-alt2: hsl(216, 11%, 55%);
-    --border-color-light: #B8c0cc;
+    --border-color-light: hsl(216, 16%, 76%);
     --font-family-h: 'Suez One', serif;
     --font-family-txt: 'Inter', sans-serif;
     --font-size-s: 16px;
@@ -177,7 +177,6 @@ div#main {
     padding: 0;
     height: 85svh;
     position: relative;
-
 }
 
 .section#services {
