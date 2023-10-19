@@ -175,8 +175,9 @@ div#main {
 
 .section#home {
     padding: 0;
-    height: 85vh;
+    height: 85svh;
     position: relative;
+
 }
 
 .section#services {
